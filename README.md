@@ -20,6 +20,8 @@ Foi criada uma tabela (DataFrame Pandas) chamada `relatorio_da_semana` a partir 
 1. `totais` contendo o somatório de cada métrica em todos os dias da semana
 2. `medias` contendo a relação entre o nome da métrica e a razão entre o valor em cada dia da semana em `relatorio_da_semana` e o seu total semanal na tabela `totais`
 
+Foi usada dict comprehension para criar estas duas tabelas
+
 ## Ferramentas
 Para este projeto foram usadas algumas tecnologias, dentre as quais vale destacar:
 * Google Colaboratory - ferramenta da Google
