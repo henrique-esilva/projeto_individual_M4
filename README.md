@@ -15,5 +15,13 @@ O objetivo deste projeto é criar um relatório para uma empresa fictícia de de
 | sábado | 5 | 2 | 3 |
 | domingo | 4 | 1 | 2 |
 
-## Método
-Foi usado o Jupyter Notebook para este projeto
+## Desenvolvimento
+Foi criada uma tabela (DataFrame Pandas) chamada `relatorio_da_semana` a partir dos registros apresentados na proposta. As métricas (horas trabalhadas, tarefas concluídas e bugs corrigidos) foram usadas em outras duas tabelas:  
+1. `totais` contendo o somatório de cada métrica em todos os dias da semana
+2. `medias` contendo a relação entre o nome da métrica e a razão entre o valor em cada dia da semana em `relatorio_da_semana` e o seu total semanal na tabela `totais`
+
+## Ferramentas
+Para este projeto foram usadas algumas tecnologias, dentre as quais vale destacar:
+* Google Colaboratory - ferramenta da Google
+* Python - linguagem de programação
+* Pandas - módulo do Python
