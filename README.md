@@ -16,7 +16,7 @@ O objetivo deste projeto é criar um relatório para uma empresa fictícia de de
 | domingo | 4 | 1 | 2 |
 
 ## Entrega
-O [notebook](https://colab.research.google.com/drive/16Hz1S5YFnRSj-HLsWG9CdYCInr4FwvVl?usp=sharing) usado durante a elaboração do projeto e também seu objeto de entrega
+O [notebook](https://colab.research.google.com/drive/1Ug9BDQu3-vrAeYFlavV7t0gvr2hptusy?usp=sharing) usado durante a elaboração do projeto e também seu objeto de entrega
 
 ## Desenvolvimento
 Foi criada uma tabela (DataFrame Pandas) chamada `registros_da_semana` a partir dos registros apresentados na proposta. As métricas (horas trabalhadas, tarefas concluídas e bugs corrigidos, além de uma métrica extra calculada: 'produtividade') foram usadas em outras duas tabelas:  
