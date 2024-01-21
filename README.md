@@ -4,7 +4,7 @@ Repositório destinado à entrega do projeto individual do módulo 4 do curso An
 ## Proposta
 O objetivo deste projeto é criar um relatório para uma empresa fictícia de desenvolvimento de softwares. Deve ser feita uma análise exploratória a partir de [registros](#registros) referentes a certo projeto de desenvolvimento ao longo de uma semana.
 
-### Registros
+### Registros Propostos
 | dia | horas trabalhadas | tarefas concluídas | bugs corrigidos |
 | --- | --- | --- | --- |
 | segunda-feira | 6 | 3 | 5 |
@@ -20,14 +20,14 @@ O [notebook](https://colab.research.google.com/drive/1Ug9BDQu3-vrAeYFlavV7t0gvr2
 
 ## Desenvolvimento
 Foi criada uma tabela (DataFrame Pandas) chamada `registros_da_semana` a partir dos registros apresentados na proposta.  
-* adicionada linha 'total' com a soma dos valores de todas as colunas
-* adicionada coluna 'prdutividade' feita a partir da razão das colunas 'bugs corrigidos' e 'horas trabalhadas'
-* adicionadas linhas 'média' e 'mediana', feitas a partir apenas dos dados da tabela original
+* adicionada linha **'total'** com a soma dos valores de todas as colunas
+* adicionada coluna **'prdutividade'** feita a partir da razão das colunas **'bugs corrigidos'** e **'horas trabalhadas'**
+* adicionadas linhas **'média'** e **'mediana'**, feitas a partir apenas dos dados da tabela original
 
 Ao final, foi criada uma função que compara determinada coluna das sete priemeiras linhas da tabela com a média deste mesmo campo  
-A função então foi usada para encontrar os dias em que cada métrica (horas trabalhadas, tarefas concluídas, bugs corrigidos, produtividade) superou a sua média, o que é exposto em um relatório por extenso, no qual também consta o maior e menor valor de cada métrica.
+A função então foi usada para encontrar os dias em que cada métrica (**horas trabalhadas**, **tarefas concluídas**, **bugs corrigidos**, **produtividade**) superou a sua média, o que é exposto em um relatório por extenso, no qual também consta o maior e menor valor de cada métrica.
 
-## Ferramentas
+## Ferramentas Utilizadas
 Para este projeto foram usadas algumas tecnologias, dentre as quais vale destacar:
 * Google Colaboratory - ferramenta da Google, bem como outras tecnologias Google
 * Python - linguagem de programação
