@@ -24,7 +24,7 @@ Foi criada uma tabela (DataFrame Pandas) chamada `registros_da_semana` a partir 
 * adicionada coluna **'prdutividade'** feita a partir da razão das colunas **'bugs corrigidos'** e **'horas trabalhadas'**
 * adicionadas linhas **'média'** e **'mediana'**, feitas a partir apenas dos dados da tabela original
 
-Ao final, foi criada uma função que compara determinada coluna das sete priemeiras linhas da tabela com a média deste mesmo campo  
+Ao final, foi criada uma função que compara determinada coluna das sete priemeiras linhas da tabela com a média desta mesma coluna  
 A função então foi usada para encontrar os dias em que cada métrica (**horas trabalhadas**, **tarefas concluídas**, **bugs corrigidos**, **produtividade**) superou a sua média, o que é exposto em um relatório por extenso, no qual também consta o maior e menor valor de cada métrica.
 
 ## Ferramentas Utilizadas
