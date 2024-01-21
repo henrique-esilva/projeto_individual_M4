@@ -19,14 +19,13 @@ O objetivo deste projeto é criar um relatório para uma empresa fictícia de de
 O [notebook](https://colab.research.google.com/drive/1Ug9BDQu3-vrAeYFlavV7t0gvr2hptusy?usp=sharing) usado durante a elaboração do projeto e também seu objeto de entrega
 
 ## Desenvolvimento
-Foi criada uma tabela (DataFrame Pandas) chamada `registros_da_semana` a partir dos registros apresentados na proposta. As métricas (horas trabalhadas, tarefas concluídas e bugs corrigidos, além de uma métrica extra calculada: 'produtividade') foram usadas em outras duas tabelas:  
-1. `totais` contendo o somatório de cada métrica em todos os dias da semana
-2. `medias` contendo a relação entre o nome da métrica e a razão entre o valor em cada dia da semana em `registros_da_semana` e o número de dias da semana
-
-Foi usada dict comprehension para criar estas duas tabelas
+Foi criada uma tabela (DataFrame Pandas) chamada `registros_da_semana` a partir dos registros apresentados na proposta.  
+* adicionada linha 'total' com a soma dos valores de todas as colunas
+* adicionada coluna 'prdutividade' feita a partir da razão das colunas 'bugs corrigidos' e 'horas trabalhadas'
+* adicionadas linhas 'média' e 'mediana', feitas a partir apenas dos dados da tabela original
 
 ## Ferramentas
 Para este projeto foram usadas algumas tecnologias, dentre as quais vale destacar:
 * Google Colaboratory - ferramenta da Google
 * Python - linguagem de programação
-* Pandas - módulo do Python
+* Pandas e NumPy - módulos Python
